@@ -1,15 +1,24 @@
-public class Day4 {//Deklarasi class yg namanya Day4
+public class Day4 { // Deklarasi class dengan nama Day4
 
-    public static void main(String[] args) {//method utama, titk awal program
-        byte umur = 19;//tipe data byte(angka kecil, -128/128)
-        short beratbadan = 168;//tipe data short (angka menengah, -32.768-32.767)
-        int tinggibadan = 68;//tipe data int (angka bulat besar =2700000)
-        float ukuransepatu = 40;//tipe data float ( angka desimal)
+    public static void main(String[] args) { // Method utama
 
-        System.out.println("masukkan umur :"+ umur);//cetak teks+ nilai  umur
-          System.out.println("masukkan berat badan :"+ beratbadan);//cetak teks+nilai BB
-        System.out.println("masukkan tinngi badan :"+ tinggibadan);//cetak teks+nilai TB
-        System.out.println("ukuran sepatu? :"+ ukuransepatu);//cetak teks+ nilai UKS
+        byte umur = 19;
+        // byte: bilangan bulat kecil, -128 sampai 127
 
-    }//penutup method main
-}//pentup class day4.
+        short beratbadan = 68;
+        // short: bilangan bulat, -32.768 sampai 32.767
+
+        int tinggibadan = 168;
+        // int: bilangan bulat, -2.147.483.648 sampai 2.147.483.647
+
+        long jumlahuang = 2700000;
+        // long: bilangan bulat yang sangat besar
+
+        System.out.println("Umur: " + umur);
+        System.out.println("Berat badan: " + beratbadan);
+        System.out.println("Tinggi badan: " + tinggibadan);
+        System.out.println("Jumlah uang: " + jumlahuang);
+
+    } // Penutup method main
+
+} // Penutup class Day4
