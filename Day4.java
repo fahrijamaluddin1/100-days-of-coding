@@ -21,4 +21,4 @@ public class Day4 { // Deklarasi class dengan nama Day4
 
     } // Penutup method main
 
-} // Penutup class Day4
+} // Penutup class Day4. 
