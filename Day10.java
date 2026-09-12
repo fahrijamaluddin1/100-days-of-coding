@@ -1,23 +1,99 @@
+//Day10 Pemahaman batas Minimal dan maksimal dari tipe data
+ 
+/**
+ * Program untuk melihat batas minimum
+ *  dan maksimum tipe data numerik java 
+ */
 public class Day10 {
     public static void main(String[] args) {
-        int a = 10;//membuat variabel a dengan nilai 10
-                        int b = 25;//membuat variabel b dengan nilai 25
-                                int c = 10;//membuat variabel c dengan nilai 10
-
-int minimum = Math.min (a, Math.min(b, c));//mencari nilai terkecil dari a,b, dan c
-                                            //math.min(b,c)> membandinhgkan 25 dan 5
-                                            //hasilnya 5
-                                            //kemudian Math.min (a,5)>membandingkan 10 dan 5
-                                            //hasil akhirnya 5
-int Maksimum = Math.max(a, Math.max(b, c));//mencari nilai terbesar dari a,b,dan c
-                                            //math.max(a,25)>membandingkan 25 dan 5
-                                            //hasilnya 25
-                                            //kemudian math.max(a,25)>membanddingkan 10 dan 
-                                            //hasil akhirnya 25 
-
-System.out.println("nilai minimum :"+ minimum);        //menampilkan nilai minimum
-System.out.println("nilai maksimum :"+Maksimum);       //menampilkan nilai maksimum         
+        
+        System.out.println("=========== PORGRAM JAVA DAY 10 ==================");
 
 
+        // byte
+        //menampilkan nilai minimum byte.
+        System.out.println("BYTE MIN    : "+Byte.MIN_VALUE);
+
+        // Menampilkan nilai maksimun byte.
+        System.out.println("BYTE MAX    : "+Byte.MAX_VALUE);
+
+        // short
+        //menampilkan nilai minimum short.
+        System.out.println("SHORT MIN   : "+Short.MIN_VALUE);
+
+        //Menampilkan nilai maksimum short.
+        System.out.println("SHORT MAX   : "+Short.MAX_VALUE);
+
+        // int
+        //menampilkan nilai minimum int
+        System.out.println("INT MIN     : "+Integer.MIN_VALUE);
+
+        //menampilkan nilai maksimum int
+        System.out.println("INT MAX     : "+Integer.MAX_VALUE);
+
+        //long
+        //menampilakn nilai minimum long
+        System.out.println("LONG MIN    : "+Long.MIN_VALUE);
+
+        //menampilkan nilai maxsimun lonf
+        System.out.println("LONG MAX    : "+Long.MAX_VALUE);
+
+        // Menampilkan nilai minimum double
+        System.out.println("DOUBLE MIN  : "+Double.MIN_VALUE);
+
+        // Menampilkan nilai maxsimum double
+        System.out.println("DOUBLE MAX  : "+Double.MAX_VALUE);
+
+        // Menampilkan nilai Minimum float
+        System.out.println("FLOAT MIN   : "+Float.MIN_VALUE);
+
+        // Menampilkan nilai Maxsimum float
+        System.out.println("FLOAT MAX   : "+Float.MAX_VALUE);
+
+        char min = Character.MIN_VALUE;
+        char max = Character.MAX_VALUE;
+
+        // Menampilkan nilai Minimum Character
+        System.out.println("CHAR MIN    : "+(byte)min);
+
+        // Menampilkan nilai Maxsimum Charakter 
+        System.out.println("CHAR MAX    : "+(byte)max);
+
+        
+        // Menampilkan nilai Minimum Character
+        System.out.println("CHAR MIN    : "+(short)min);
+
+        // Menampilkan nilai Maxsimum Charakter 
+        System.out.println("CHAR MAX    : "+(short)max);
+
+        
+        // Menampilkan nilai Minimum Character
+        System.out.println("CHAR MIN    : "+(int)min);
+
+        // Menampilkan nilai Maxsimum Charakter 
+        System.out.println("CHAR MAX    : "+(int)max);
+
+        
+        // Menampilkan nilai Minimum Character
+        System.out.println("CHAR MIN    : "+(long)min);
+
+        // Menampilkan nilai Maxsimum Charakter 
+        System.out.println("CHAR MAX    : "+(long)max);
+
+        
+        // Menampilkan nilai Minimum Character
+        System.out.println("CHAR MIN    : "+(double)min);
+
+        // Menampilkan nilai Maxsimum Charakter 
+        System.out.println("CHAR MAX    : "+(double)max);
+
+        
+        // Menampilkan nilai Minimum Character
+        System.out.println("CHAR MIN    : "+(float)min);
+
+        // Menampilkan nilai Maxsimum Charakter 
+        System.out.println("CHAR MAX    : "+(float)max);
+        
+        System.out.println("============ SAMPAI JUMPA DI DAY 11 ==============");
     }
-                   }
+}
