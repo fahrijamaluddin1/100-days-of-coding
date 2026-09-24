@@ -6,7 +6,7 @@ public class Day23 {
         System.out.print("Masukkan sisi : ");
         int sisi = a.nextInt();
          int hasil = (sisi * sisi);
-        System.out.println("jadi, sisinya : "+hasil);
+        System.out.println("jadi, Hasil : "+hasil);
         
     }
 }
