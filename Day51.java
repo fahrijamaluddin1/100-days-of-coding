@@ -1,9 +1,12 @@
-public class Day51 {
+import java.util.Scanner;
+
+public class Day51{
     public static void main(String[] args) {
-        int angka =1;
-        while (angka<=10){
-            System.out.println("Angka : "+ angka);
-            angka++;
+        Scanner z = new Scanner(System.in);
+        System.out.print("masukkan angka : ");
+        int angka = z.nextInt();  
+        for(angka =0; angka <= 10; angka++){
+            System.out.println("Angka : "+angka);
         }
     }
 }
